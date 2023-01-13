@@ -1,0 +1,77 @@
+@import url('//fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
+html{
+    scroll-behavior: smooth;
+}
+
+table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+body{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+}
+
+.Button{
+    border-radius: 0px;
+}
+
+.Button1{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.Button2{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.Padder{
+    padding-top: 10px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(24,24,24);  
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #f02525;
+}
+
+h2{
+    color: #ffd300;
+}
+
+.link{
+    color: #f02525;
+}
+
+h1{
+    color: #f02525;
+    font-size: 50px;
+}
+
+.animatedZoom{
+    transition: transform .2s;
+}
+
+.animatedZoom:hover{
+    transform: scale(1.075);
+}
